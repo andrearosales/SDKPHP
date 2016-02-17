@@ -35,7 +35,8 @@ $parameters = array(
     //Ingrese aquí el documento de contacto del pagador.
     PayUParameters::PAYER_DNI => "5415668464654",
     //Ingrese aquí el nombre del método de pago
-    PayUParameters::PAYMENT_METHOD => "EFECTY", //BALOTO | BANK_REFERENCED
+    //"BALOTO" || "EFECTY" || "BANK_REFERENCED"
+    PayUParameters::PAYMENT_METHOD => "EFECTY",
     //Ingrese aquí el nombre del pais.
     PayUParameters::COUNTRY => PayUCountries::CO,
     //Ingrese aquí la fecha de expiración.
